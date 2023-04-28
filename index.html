@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="root"> </div>
+    <script type="text/babel">
+        //jsx div Element
+
+        let div = <div>
+            <h1> Renuka Choudhary</h1>
+            <p style={{color:"blue"}}>Software Developer , Student at Geekster</p>
+            <a href ="https://www.linkedin.com/in/renuka-chaudhary-0b52a3220/">linkedin</a>&nbsp;&nbsp;
+            <a href ="https://github.com/renu-run-run">Github</a>
+            <hr />
+            <h2>Projects</h2>
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classica</p>
+            <hr />
+            <h2>Experience</h2>
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classica</p>
+            <hr />
+            <h2>Skills</h2>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <hr />
+            <h2>Hobbies</h2>
+            <li>Painting</li>
+            <li>Swimming</li>
+            <li>BookReading</li>
+            <li>Teaching</li>
+
+        </div>
+        ReactDOM.render(div, document.getElementById('root'));
+
+    </script>
+</body>
+
+</html>
